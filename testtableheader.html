@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Test Table Header</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+        <script src="oyotableheader.js"></script>
+
+        <style>
+            * {
+                box-sizing          : border-box;
+            }
+            ::-webkit-scrollbar {
+                height              : 10px;
+                width               : 10px;
+            }
+            ::-webkit-scrollbar-thumb {
+                background          : white;
+                border              : 2px solid black;
+                border-radius       : 4px;
+            }
+            ::-webkit-scrollbar-thumb:vertical {
+                border-right        : 1px solid black;
+            }
+            ::-webkit-scrollbar-thumb:horizontal {
+                border-bottom       : 1px solid black;
+            }
+            .albums {
+                width               : 740px;
+                height              : 400px;
+                border              : 1px solid black;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <script>
+            $(document).ready(function () {
+                var artistid = 93;
+                var src = "http://www.oyoweb.nl/music/albumlist.html?artistid=" + artistid + "&isboxset=0" + "&boxsetid=0" + "&pageno=1";
+                $(".albums").attr("src", src);
+            });
+        </script>
+
+        <iframe class="albums" name="albums"></iframe>
+    </body>
+</html>
