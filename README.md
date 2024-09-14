@@ -28,6 +28,7 @@
   <li>Be sure to cover the original header.</li>
   <li>Border can be changed and border type can be table, cell or none</li>
   <li>Background color and text color can be changed.</li>
+  <li>Placement and scrolling are fully automatic now.</li>
 </ul>
 <h2>Contact</h2>
 <ul>
