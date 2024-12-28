@@ -15,7 +15,7 @@
   <li><strong>category</strong> component</li>
   <li><strong>copyright</strong> 2022 oyosoftware </li>
   <li><strong>license</strong> MIT License</li>
-  <li><strong>link</strong> http://www.oyosoftware.nl/plugins/oyotableheader/testtableheader.html</li>
+  <li><strong>link</strong> http://www.oyoweb.nl/software/plugins/oyotableheader/testtableheader.html</li>
   <li><strong>source</strong> https://github.com/oyosoftware/oyotableheader</li>
 </ul>
 <h2>Description</h2>
