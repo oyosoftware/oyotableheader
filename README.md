@@ -1,5 +1,5 @@
 # oyotableheader
-<a href="http://oyosoftware.nl/plugins/oyotableheader/testtableheader.html" target="_blank">
+<a href="http://oyoweb.nl/software/plugins/oyotableheader/testtableheader.html" target="_blank">
   <img src="http://oyosoftware.nl/plugins/oyotableheader/oyotableheader.jpg" alt="oyotabset">
 </a>
 <p>Table Header Component</p>
