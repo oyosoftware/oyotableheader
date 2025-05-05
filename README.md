@@ -1,6 +1,6 @@
 # oyotableheader
 <a href="http://oyoweb.nl/software/plugins/oyotableheader/testtableheader.html" target="_blank">
-  <img src="http://oyosoftware.nl/plugins/oyotableheader/oyotableheader.jpg" alt="oyotabset">
+  <img src="http://oyosoftware.nl/plugins/oyotableheader/oyotableheader20.jpg" alt="oyotabset">
 </a>
 <p>Table Header Component</p>
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;currency_code=EUR&amp;business=code@oyosoftware.nl&amp;item_name=donation%20for%20oyotableheader" rel="nofollow">
