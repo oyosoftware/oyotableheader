@@ -11,7 +11,8 @@
                 box-sizing          : border-box;
             }
             body {
-                height              : 800px;
+                height              : 1000px;
+                margin              : 50px;
             }
             ::-webkit-scrollbar {
                 height              : 10px;
@@ -29,13 +30,13 @@
                 border-bottom       : 1px solid black;
             }
             .overlay {
-                height: 8px;
-                width: 100%;
-                position: fixed;
-                top: 0px;
-                left: 0px;
-                background-color: white;
-                z-index: 1;
+                height              : 50px;
+                width               : 100%;
+                position            : fixed;
+                top                 : 0px;
+                left                : 0px;
+                background-color    : white;
+                z-index             : 1;
             }
             table {
                 font-size           : 10pt;
@@ -43,6 +44,7 @@
                 border-collapse     : collapse;
             }
             .albumstable {
+                top                 : 100px;
                 border-spacing      : 0px;
                 position            : relative;
             }
@@ -60,13 +62,13 @@
                 text-align          : right;
             }
             .artist {
-                width: 250px;
+                width               : 250px;
             }
             .country {
-                width: 150px;
+                width               : 150px;
             }
             .count {
-                width: 50px;
+                width               : 50px;
             }
         </style>
 
@@ -77,7 +79,7 @@
             $(document).ready(function () {
                 var tableHeader = new oyoTableHeader(".albumstable");
                 $(tableHeader).addClass("headertable");
-                tableHeader.changeMinTop(8);
+                tableHeader.changeMinTop(50);
             });
         </script>
 
@@ -141,11 +143,6 @@
                     <td><a href="#">Camel</a></td>
                     <td>United Kingdom</td>
                     <td>15</td>
-                </tr>
-                <tr>
-                    <td><a href="#">Chameleons</a></td>
-                    <td>United Kingdom</td>
-                    <td>6</td>
                 </tr>
             </tbody>
         </table>
